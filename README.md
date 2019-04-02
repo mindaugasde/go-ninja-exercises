@@ -1,1 +1,1 @@
-# go-ninja-exercises
+# Go Course Exercises
