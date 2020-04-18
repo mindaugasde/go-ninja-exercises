@@ -5,7 +5,7 @@ import "fmt"
 func main() {
 	const (
 		a int = 42
-		b = "John Doe"
+		b     = "John Doe"
 	)
 
 	fmt.Println(a)

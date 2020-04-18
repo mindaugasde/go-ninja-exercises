@@ -6,7 +6,7 @@ func main() {
 	a := 10
 	b := 5
 
-	de := (a == b * 2)
+	de := (a == b*2)
 	le := (a <= b)
 	ge := (a >= b)
 	ne := (a != b)

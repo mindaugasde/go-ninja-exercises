@@ -8,7 +8,7 @@ func main() {
 	fmt.Println(len(states))
 	fmt.Println(cap(states))
 
-	for i := 0; i < len(x); i++{
+	for i := 0; i < len(x); i++ {
 		states[i] = x[i]
 	}
 	fmt.Println(len(states))
