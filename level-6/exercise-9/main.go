@@ -12,10 +12,10 @@ func main() {
 }
 
 func fibonacci(f func() int) []int {
-	numbers := []int{0,1}
+	numbers := []int{0, 1}
 	lastIteration := f()
 	for numbers[len(numbers)-1] < lastIteration {
-		numbers = append(numbers, numbers[len(numbers)-1] + numbers[len(numbers)-2])
+		numbers = append(numbers, numbers[len(numbers)-1]+numbers[len(numbers)-2])
 	}
 	return numbers
 }
